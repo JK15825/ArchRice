@@ -1,0 +1,34 @@
+[Desktop Entry]
+FullScreen=false
+
+[KFileDialog Settings]
+Recent Files[$e]=space3.png,file:$HOME/Pictures/Wallpapers/space32b.jpg,file:$HOME/Pictures/Wallpapers/space2.jpg,file:$HOME/Pictures/Wallpapers/space3.png
+Recent URLs[$e]=file:$HOME/Pictures/Wallpapers/
+
+[MainWindow]
+Height 900=840
+State=AAAA/wAAAAD9AAAAAAAAAxEAAAMCAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1600=785
+
+[Recent Files]
+File1[$e]=$HOME/Documents/CIS 200/PDF/Proj4.pdf
+File10[$e]=$HOME/Documents/Engl 100/.latex_preview_build_dir/Invitational.pdf
+File2[$e]=$HOME/Documents/CIS 200/Proj5/Proj5.pdf
+File3[$e]=$HOME/Downloads/Tubes.pdf
+File4[$e]=$HOME/Pictures/Wallpapers/space3.png
+File5[$e]=$HOME/Documents/Engl 100/Source.pdf
+File6[$e]=$HOME/Documents/Engl 100/.latex_preview_build_dir/Source.pdf
+File7[$e]=$HOME/Documents/CS115/ColinsAds.pdf
+File8[$e]=$HOME/Documents/CS115/2 - pickup sticks.pdf
+File9[$e]=$HOME/Documents/CS115/Tubes.pdf
+Name1[$e]=Proj4.pdf
+Name10[$e]=Invitational.pdf
+Name2[$e]=Proj5.pdf
+Name3[$e]=Tubes.pdf
+Name4[$e]=space3.png
+Name5[$e]=Source.pdf
+Name6[$e]=Source.pdf
+Name7[$e]=ColinsAds.pdf
+Name8[$e]=2 - pickup sticks.pdf
+Name9[$e]=Tubes.pdf

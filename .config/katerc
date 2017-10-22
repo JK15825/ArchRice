@@ -1,0 +1,28 @@
+[General]
+Config Revision=10
+Days Meta Infos=30
+Last Session=
+Save Meta Infos=true
+Show Full Path in Title=false
+Show Menu Bar=true
+Show Status Bar=true
+Show Tab Bar=true
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Documents/C++ Test/Add.h,file:$HOME/Documents/CS115/pickup_sticks.py,file:$HOME/Documents/C++ Test/HelloWorld.cpp,file:$HOME/Documents/CS115/Node.py,file:$HOME/Documents/CIS 200/src/TempConvert.java,file:$HOME/Documents/CIS 200/src/Methods.java
+Recent URLs[$e]=file:$HOME/Documents/CIS 200/src/,file:$HOME/Documents/CIS 200/,file:$HOME/Documents/CS115/,file:$HOME/Documents/C++ Test/
+
+[MainWindow]
+Height 900=869
+State=AAAA/wAAAAD9AAAAAAAAAxEAAAMoAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1600=1600
+Window-Maximized 900x1600=true
+
+[filetree]
+editShade=33,84,111
+listMode=false
+shadingEnabled=true
+showFullPathOnRoots=false
+sortRole=0
+viewShade=66,73,74

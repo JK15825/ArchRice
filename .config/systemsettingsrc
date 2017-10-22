@@ -1,0 +1,21 @@
+[ConfigDialog]
+Height 900=254
+Width 1600=406
+
+[MainWindow]
+Height 384=430
+Height 900=840
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAAxEAAANIAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1600=785
+Width 512=620
+Width 683=1088
+Window-Maximized 384x512=true
+
+[Open-with settings]
+CompletionMode=5
+History=/usr/lib/thunderbird/thunderbird %u
+
+[PlasmaRunnerManager]
+LaunchCounts=

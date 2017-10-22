@@ -1,0 +1,16 @@
+2017/10/20-01:51:29.073 9125 Reusing MANIFEST /home/jkaspar/.config/chromium/Default/Session Storage/MANIFEST-000001
+2017/10/20-01:51:29.073 9125 Recovering log #464
+2017/10/20-01:51:29.073 9125 (ignoring error) /home/jkaspar/.config/chromium/Default/Session Storage/000464.log: dropping 890 bytes; Corruption: missing start of fragmented record(2)
+2017/10/20-01:51:29.073 9125 Reusing old log /home/jkaspar/.config/chromium/Default/Session Storage/000464.log 
+2017/10/20-01:56:15.773 9765 Level-0 table #468: started
+2017/10/20-01:56:15.783 9765 Level-0 table #468: 17250 bytes OK
+2017/10/20-01:56:15.791 9765 Delete type=0 #464
+2017/10/20-01:56:15.791 9765 Compacting 4@0 + 1@1 files
+2017/10/20-01:56:15.803 9765 Generated table #469@0: 436 keys, 10771 bytes
+2017/10/20-01:56:15.803 9765 Compacted 4@0 + 1@1 files => 10771 bytes
+2017/10/20-01:56:15.810 9765 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/10/20-01:56:15.811 9765 Delete type=2 #463
+2017/10/20-01:56:15.811 9765 Delete type=2 #465
+2017/10/20-01:56:15.811 9765 Delete type=2 #461
+2017/10/20-01:56:15.812 9765 Delete type=2 #459
+2017/10/20-01:56:15.812 9765 Delete type=2 #468

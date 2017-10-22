@@ -1,0 +1,3 @@
+2017/10/18-22:53:50.104 11437 Reusing MANIFEST /home/jkaspar/.config/chromium/Default/IndexedDB/https_storage.googleapis.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/10/18-22:53:50.104 11437 Recovering log #3
+2017/10/18-22:53:50.104 11437 Reusing old log /home/jkaspar/.config/chromium/Default/IndexedDB/https_storage.googleapis.com_0.indexeddb.leveldb/000003.log 

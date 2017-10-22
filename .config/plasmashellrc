@@ -1,0 +1,44 @@
+[Containments][27][General]
+AppletOrder=29
+
+[FileDialogSize]
+Height 1800=868
+Width 3200=1325
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Pictures/Wallpapers/space32b.jpg,file:$HOME/Pictures/arch-linux.png,file:$HOME/Pictures/arch-linux1.png,file:$HOME/Pictures/arch-logo-alt.png,file:$HOME/Pictures/menu.png,file:$HOME/Pictures/Wallpapers/sapce.jpg,file:$HOME/Pictures/Wallpapers/space2.jpg,file:$HOME/Pictures/Wallpapers/space3.png
+Recent URLs[$e]=file:$HOME/Pictures/Wallpapers/,file:$HOME/Pictures/,file:$HOME/Downloads/
+
+[KPropertiesDialog]
+Height 1800=700
+Width 3200=789
+
+[PlasmaRunnerManager]
+LaunchCounts=1 services_emacs.desktop,9 services_Discord.desktop,1 services_genymotion.desktop,1 services_libreoffice-startcenter.desktop,2 services_thunderbird.desktop,2 services_org.kde.kcolorchooser.desktop,1 services_chromium.desktop,4 services_org.kde.konsole.desktop,1 services_gimp.desktop,7 services_intellij-idea-ce.desktop,1 services_systemsettings.desktop,4 services_spotify.desktop,4 services_org.kde.kate.desktop
+pluginWhiteList=services,bookmarks,baloosearch,locations
+
+[PlasmaViews][Panel 2]
+alignment=2
+panelVisibility=0
+
+[PlasmaViews][Panel 2][Horizontal1024]
+thickness=30
+
+[PlasmaViews][Panel 2][Horizontal3200]
+maxLength=3200
+minLength=3200
+thickness=70
+
+[PlasmaViews][Panel 2][Vertical1800]
+thickness=30
+
+[PlasmaViews][Panel 27][Horizontal3200]
+minLength=522
+thickness=70
+
+[ScreenConnectors]
+0=eDP-1
+1=DP-1
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js

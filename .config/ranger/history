@@ -1,0 +1,35 @@
+rifle
+ls -all
+all
+show
+vsplit
+split
+e
+touch 
+PlugInstall
+touch Source.tex
+w .vimrc
+map
+map!
+shell mv 2017-10-14-155258_3200x1800_scrot.png Pictures
+rm Throwing.java
+del Throwing.java
+touch Invitational.tex
+touch blog2.html
+touch random.html
+cp sapce.jpg ~/Documents/CS115/HTML/
+w
+touch spotify.sh
+touch PayrollApp.java
+close
+remove
+
+search s
+search 
+search sr
+search Collec
+search Colle
+search Col
+search Coll
+open_with pdflatex
+wq

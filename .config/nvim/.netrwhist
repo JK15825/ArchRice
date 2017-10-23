@@ -1,9 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/home/jkaspar/.config/openbox'
-let g:netrw_dirhist_2='/home/jkaspar/.config'
-let g:netrw_dirhist_3='/home/jkaspar/.config/nvim'
-let g:netrw_dirhist_4='/home/jkaspar'
-let g:netrw_dirhist_5='/home/jkaspar/Documents'
-let g:netrw_dirhist_6='/home/jkaspar/Documents/CIS 200'
-let g:netrw_dirhist_7='/home/jkaspar/Documents/CIS 200/Proj4'

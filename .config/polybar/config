@@ -120,14 +120,14 @@ label-empty-padding = 2
 
 [module/mpd]
 type = internal/mpd
-format-online = <label-song> <label-time>
+format-online =  "%{A1:mpc toggle:}<label-song>%{A}<label-time>"
 
 label-time = (%elapsed%/%total%)
 label-offline = Offline
 
 format-online-foreground = ${colors.foreground} 
 format-online-background = ${colors.background} 
-format-online-padding = 2
+#format-online-padding = 2
 
 [module/wlan]
 type = internal/network

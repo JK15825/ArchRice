@@ -7,6 +7,9 @@ convert $TMPBG -scale 10% -scale 1000% $TMPBG
 convert $TMPBG $ICON -gravity center -composite -matte $TMPBG
 i3lock -i $TMPBG
 rm /tmp/screen.png
+
+mpc pause 
+
 fi
 if [ "$1" == "suspend" ]; then
 ICON=$HOME/.config/polybar/icon.png
@@ -17,13 +20,9 @@ convert $TMPBG $ICON -gravity center -composite -matte $TMPBG
 i3lock -i $TMPBG
 rm /tmp/screen.png
 
+mpc pause
+
 systemctl suspend
-fi
-if [ $1 == "restart" ]; then
-systemctl restart
-fi
-if [ $1 == "shutdown" ]; then
-systemctl poweroff
 fi
 #!/bin/bash
 #scrot /tmp/screen.png

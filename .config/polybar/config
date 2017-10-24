@@ -20,7 +20,7 @@ alert = #bd2c40
 margin = 4 
 
 [bar/left]
-width = 8%
+width = 15%
 height = 37
 fixed-center = false
 
@@ -40,39 +40,35 @@ font-2 = unifont:fontformat=truetype:size=20:antialias=false;0
 font-3 = siji:pixelsize=22;1
   
 modules-center = bspwm 
-
+modules-right = date
 tray-padding = 2
 tray-position = false
 
 bottom = true
 
 [bar/center]
-width = 8%
+width = 63%
 height = 37
-fixed-center = false
+fixed-center = true
 
-background = ${colors.background}
+background = #00ffffff
 foreground = ${colors.foreground}
 
 line-size = 3
 line-color = #f00
-
-border-size = 4
-border-color = #222
-padding-right = 2
 
 font-0 = FontAwesome:size=20;0
 font-1 = fixed:pixelsize=22;1
 font-2 = unifont:fontformat=truetype:size=20:antialias=false;0
 font-3 = siji:pixelsize=22;1
   
-modules-center = date 
-
+modules-center = mpd 
 tray-padding = 2
 
-offset-x = 46%
+offset-x = 15%
 
 bottom = true
+
 
 [bar/right]
 #monitor = ${env:MONITOR:HDMI-1}
@@ -122,6 +118,15 @@ label-empty = %index%
 label-empty-foreground = ${colors.foreground-alt}
 label-empty-padding = 2
 
+[module/mpd]
+type = internal/mpd
+format-online = <label-song> <label-time>
+
+label-time = (%elapsed%/%total%)
+label-offline = Offline
+ 
+format-online-background = #e6222222
+format-online-padding = 2
 
 [module/wlan]
 type = internal/network

@@ -120,9 +120,12 @@ label-empty-padding = 2
 
 [module/mpd]
 type = internal/mpd
-format-online =  "%{A1:mpc toggle:}<label-song>%{A}<label-time>"
-
+format-online =  "%{A1:mpc prev:}<icon-prev>%{A}%{A1:mpc play:}<icon-play>%{A}%{A1:mpc pause:}<icon-pause>%{A}%{A1:mpc next:}<icon-next>%{A} <label-song><label-time>"
 label-time = (%elapsed%/%total%)
+icon-prev = " « " 
+icon-next = " » "
+icon-play = " > "
+icon-pause = " || "
 label-offline = Offline
 
 format-online-foreground = ${colors.foreground} 

@@ -13,7 +13,7 @@ let g:latex_preivew#compiler = 'pdflatex'
 let g:latex_preview#rebuild_events = 'TextChanged,TextChangedI'
 
 syntax on
-colorscheme hydrangea
+colorscheme default 
 let g:airline_theme='wombat'
 set number
 set shiftwidth=4

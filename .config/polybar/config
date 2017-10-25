@@ -47,7 +47,7 @@ tray-position = false
 bottom = true
 
 [bar/center]
-width = 63%
+width = 100%
 height = 37
 fixed-center = true
 
@@ -64,8 +64,6 @@ font-3 = siji:pixelsize=22;1
   
 modules-center = mpd 
 tray-padding = 2
-
-offset-x = 15%
 
 bottom = true
 

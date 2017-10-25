@@ -10,8 +10,18 @@ mopidy --config ~/.config/mopidy/mopidy.conf &
 # nohup mopidy &;mkfifo /tmp/mpd.fifo;while :; do yes $’\n’ | nc -lu 127.0.0.1 5555 > /tmp/mpd.fifo; done &
 
 bspc config focus_follows_pointer true
-bspc monitor -d I II III IV V
+bspc monitor eDP-1 -d I II III IV V
 
+query='bspc query -M'
+
+i=6
+read -a monitors <<<$query
+if[[${#monitors[@]} > 1 ]]; then
+    for monitor in ${monitors[@]}; do
+        bspc monitor $monitor -d $i
+        let i++
+    done
+fi 
 bspc config border_width         2
 bspc config window_gap          12
 

@@ -13,3 +13,5 @@ cp  -r ~/.config/ranger ~/ArchRice/.config/ranger
 git add .
 OUTPUT="$(git status)"
 echo "${OUTPUT}"
+git commit
+git push origin master

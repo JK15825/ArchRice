@@ -14,12 +14,8 @@ alt + d
 alt + Escape
 	pkill -USR1 -x sxhkd
 
-ctrl + alt + shift + y
-    i3lock 
-
 ctrl + alt + shift + t
     wal -i "/home/jkaspar/Pictures/Wallpapers"
-
 
 XF86Audio{Raise,Lower}Volume
     amixer set Master {1+,1-} unmute
@@ -76,10 +72,6 @@ alt + m
 alt + {t,shift + t,s,f}
 	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
 
-# set the node flags
-alt + ctrl + {x,y,z}
-	bspc node -g {locked,sticky,private}
-
 #
 # focus/swap
 #
@@ -87,8 +79,8 @@ alt + ctrl + {x,y,z}
 # focus or send to the given desktop
 alt + {_,shift + }{1-9,0}
 	bspc {desktop -f,node -d} '^{1-9,10}'
-alt + {h,j,k,l}
-    bspc node -f {west,south,north,east}
+alt + {_,shift + }{h,j,k,l}
+    bspc node --{focus,swap} {west,south,north,east}
 #
 # preselect
 #

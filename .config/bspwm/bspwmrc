@@ -10,18 +10,6 @@ mopidy --config ~/.config/mopidy/mopidy.conf &
 # nohup mopidy &;mkfifo /tmp/mpd.fifo;while :; do yes $’\n’ | nc -lu 127.0.0.1 5555 > /tmp/mpd.fifo; done &
 
 bspc config focus_follows_pointer true
-bspc monitor eDP-1 -d I II III IV V
-
-query='bspc query -M'
-
-i=6
-read -a monitors <<<$query
-if[[${#monitors[@]} > 1 ]]; then
-    for monitor in ${monitors[@]}; do
-        bspc monitor $monitor -d $i
-        let i++
-    done
-fi
 
 bspc config border_width         2
 bspc config window_gap          12
@@ -35,4 +23,16 @@ bspc config gapless_monocle      true
 bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
-bspc rule -a connman-gtk state=floating center=on
+bspc rule -a Connman-gtk state=floating center=on
+
+bspc monitor eDP-1 -d I II III IV V
+query='bspc query -M'
+
+i=6
+read -a monitors <<<$query
+if[[${#monitors[@]} > 1 ]]; then
+    for monitor in ${monitors[@]}; do
+        bspc monitor $monitor -d $i
+        let i++
+    done
+fi

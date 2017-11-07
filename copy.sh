@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cp -r ~/Pictures/Wallpapers ~/ArchRice
+cp ~/Pictures/background.jpg ~/ArchRice
 cp -r ~/.config/polybar ~/ArchRice/.config
 cp -r ~/.config/bspwm/bspwmrc ~/ArchRice/.config/bspwm
 cp -r ~/.config/cava ~/ArchRice/.config/cava

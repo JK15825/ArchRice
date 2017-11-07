@@ -3,7 +3,7 @@ sxhkd &
 ./.config/polybar/launch.sh & 
 compton  &
 pulseaudio & 
-feh --bg-fill ~/Pictures/Wallpapers/space4.jpg &  
+feh --bg-fill ~/Pictures/background.jpg &  
 ./.config/bspwm/launch_mopidy.sh & 
 # nohup mopidy &;mkfifo /tmp/mpd.fifo;while :; do yes $’\n’ | nc -lu 127.0.0.1 5555 > /tmp/mpd.fifo; done &
 

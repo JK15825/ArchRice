@@ -38,9 +38,9 @@ font-1 = fixed:pixelsize=22;2
 font-2 = unifont:fontformat=truetype:size=20:antialias=false;2
 font-3 = siji:pixelsize=22;2
 
-modules-left = bspwm date todo weather  
+modules-left = bspwm date windows 
 modules-center = mpd 
-modules-right = windows wlan volume battery powermenu
+modules-right = wlan volume battery powermenu
 tray-padding = 4
 bottom = true
 
@@ -149,8 +149,8 @@ format-disconnected =
 type = internal/date
 interval = 5
 
-date = "%m-%d"
-date-alt = "%m-%d"
+date = ""
+date-alt = "%m-%d "
 
 time = %H:%M
 time-alt = %H:%M
@@ -159,7 +159,7 @@ format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #0a6cf5
 
-label = "%time%  %date%"
+label = "%time% %date%"
 
 [module/volume]
 type = internal/volume

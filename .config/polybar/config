@@ -240,21 +240,18 @@ animation-charging-framerate = 750
 [module/powermenu]
 type = custom/menu
 
-label-open = " PWR"
-label-close = " C "
+label-open = "  "
+label-close = "  "
 
-menu-0-0 = " L "
+menu-0-0 = "  "
 menu-0-0-foreground = #fba922
 menu-0-0-exec = "~/.config/polybar/lock.sh lock"
-menu-0-1 = " S "
+menu-0-1 = "  "
 menu-0-1-foreground = #fba922
-menu-0-1-exec = "~/.config/polybar/lock.sh suspend"
-menu-0-2 = " R "
+menu-0-1-exec = systemctl reboot
+menu-0-2 = "  "
 menu-0-2-foreground = #fba922
-menu-0-2-exec = systemctl reboot
-menu-0-3 = " P "
-menu-0-3-foreground = #fba922
-menu-0-3-exec = systemctl poweroff
+menu-0-2-exec = systemctl poweroff
 
 screenchange-reload = true
  

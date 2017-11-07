@@ -1,7 +1,7 @@
 #!/bin/bash
 
-cp -r ~/Pictures/Wallpapers ~/Archrice
-cp -r ~/.config/polybar ~/Archrice/.config
+cp -r ~/Pictures/Wallpapers ~/ArchRice
+cp -r ~/.config/polybar ~/ArchRice/.config
 cp -r ~/.config/bspwm/bspwmrc ~/ArchRice/.config/bspwm
 cp -r ~/.config/cava ~/ArchRice/.config/cava
 cp ~/.config/sxhkd/sxhkdrc ~/ArchRice/.config/sxhkd/sxhkdrc

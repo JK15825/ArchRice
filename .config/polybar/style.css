@@ -1,0 +1,17 @@
+body {
+    background: #222222;
+}
+
+.pure-u-1 {
+    margin-top: 50%!important;
+}
+
+a {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    font-size: 1.7em;
+    text-decoration: none;
+    color:#dfdfdf;
+}
+

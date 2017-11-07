@@ -23,17 +23,19 @@ touch spotify.sh
 touch PayrollApp.java
 close
 remove
-
 search s
-search 
 search sr
 search Collec
 search Colle
 search Col
 search Coll
-open_with pdflatex
 wq
 search src
 search Doc
 search CIS
 search Proj
+open_with pdflatex
+search 
+search doc
+
+search topic

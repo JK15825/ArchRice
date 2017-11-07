@@ -4,18 +4,18 @@
 
 # terminal emulator
 alt+ Return
-    xterm -fs 22
+    termite 
 
 # program launcher
 alt + d
-	rofi -show run
+	rofi -show drun
 
 # make sxhkd reload its configuration files:
 alt + Escape
 	pkill -USR1 -x sxhkd
 
 ctrl + alt + shift + t
-    wal -i "/home/jkaspar/Pictures/Wallpapers"
+    wal -t -i "/home/jkaspar/Pictures/Wallpapers"
 
 XF86Audio{Raise,Lower}Volume
     amixer set Master {1+,1-} unmute
@@ -41,6 +41,9 @@ XF86Search
 
 Print
     scrot -e 'mv $f ~/Pictures/'
+
+alt + ctrl + y
+    ./.config/polybar/lock.sh lock
 
 #XF86ScreenSaver
 #    i3lock & 

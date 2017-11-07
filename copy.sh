@@ -2,7 +2,7 @@
 
 cp -r ~/Pictures/Wallpapers ~/Archrice
 cp -r ~/.config/polybar ~/Archrice/.config
-cp ~/.config/bspwm/bspwmrc ~/ArchRice/.config/bspwm/bspwmrc
+cp -r ~/.config/bspwm/bspwmrc ~/ArchRice/.config/bspwm
 cp -r ~/.config/cava ~/ArchRice/.config/cava
 cp ~/.config/sxhkd/sxhkdrc ~/ArchRice/.config/sxhkd/sxhkdrc
 cp -r ~/.config/mpv ~/ArchRice/.config/mpv

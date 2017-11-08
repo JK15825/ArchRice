@@ -165,17 +165,16 @@ label = "%time% %date%"
 type = internal/volume
 
 master-soundcard = default
-speaker-soundcard = default
-headphone-soundcard = default
+;speaker-soundcard = default
+;headphone-soundcard = default
  
 volume-padding-right = 2
 volume-padding-left = 2 
 master-mixer = Master
 
-speaker-mixer = Speaker
-headphone-mixer = Headphone
-
-headphone-id = 9
+;speaker-mixer = Speaker
+;headphone-mixer = Headphone
+;headphone-id = 9
 
 mapped = true
 

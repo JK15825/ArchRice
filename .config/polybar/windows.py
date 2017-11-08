@@ -11,11 +11,15 @@ for val in temp:
         dict.update({val:1})
     elif(len(val) > 0):
         dict[val] = dict[val] + 1
-toprint = " | "
+toprint = " | " if len(dict) > 0 else "" 
 for val in dict:
     if(dict[val] == 1):
-        toprint += val + " | "
+        command = ['xdotool', 'search', '--name',val[0:1].lower() + val[1:]]
+        id = subprocess.Popen(command,stdout=subprocess.PIPE).stdout.read()
+        id = id.decode("utf-8")
+        id = id.split("\n")
+        toprint += "%{A1:xdotool windowactivate "+ id[0]  +  ":}" +  val + "%{A} | "
     else:
-        toprint += val + " " + str(dict[val]) + " | "
+        toprint +=  val + " " + str(dict[val]) + " | "
 
 print(toprint)

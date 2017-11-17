@@ -56,7 +56,7 @@ ws-icon-0 = web;
 ws-icon-1 = code;
 ws-icon-2 = term;
 ws-icon-3 = music;
-ws-icon-4 = mail;
+ws-icon-4 = mail;
 ws-icon-default = 
 
 label-focused = %icon%
@@ -86,7 +86,7 @@ interval = 600
 type = custom/script
 format = <label>
 label = "%{A1:termite -e "vim hw.txt":}  %output%%{A}"
-exec = ~/hwreader.sh
+exec = ~/.config/polybar/hwreader.sh
 interval = 90
 
 [module/filesystem]
@@ -122,11 +122,11 @@ label-connected-foreground = ${colors.foreground}
 label-disconnected-foreground = ${colors.foreground}
 format-disconnected = <label-disconnected>
 padding-left = 2
-ramp-signal-0 = 
-ramp-signal-1 = 
-ramp-signal-2 = 
-ramp-signal-3 = 
-ramp-signal-4 = 
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+ramp-signal-4 = 
 ramp-signal-foreground = ${colors.foreground-alt}
 
 [module/eth]
@@ -165,16 +165,16 @@ label = "%time% %date%"
 type = internal/volume
 
 master-soundcard = default
-;speaker-soundcard = default
-;headphone-soundcard = default
+speaker-soundcard = default
+headphone-soundcard = default
  
 volume-padding-right = 2
 volume-padding-left = 2 
 master-mixer = Master
 
-;speaker-mixer = Speaker
-;headphone-mixer = Headphone
-;headphone-id = 9
+speaker-mixer = Speaker
+headphone-mixer = Headphone
+headphone-id = 1
 
 mapped = true
 

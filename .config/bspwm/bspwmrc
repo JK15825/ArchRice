@@ -1,5 +1,6 @@
 #! /bin/sh
 sxhkd &
+udiskie -aNT &
 ./.config/polybar/launch.sh & 
 compton  &
 pulseaudio & 
@@ -28,7 +29,8 @@ query='bspc query -M'
 
 i=6
 read -a monitors <<<$query
-if[[${#monitors[@]} > 1 ]]; then
+if[[${#monitors[@]} > 1 ]]
+then
     for monitor in ${monitors[@]}; do
         bspc monitor $monitor -d $i
         let i++

@@ -9,6 +9,8 @@ cp -r ~/.config/mpv ~/ArchRice/.config/mpv
 cp -r ~/.config/ranger ~/ArchRice/.config/ranger
 cp ~/.config/rofi/config.rasi ~/ArchRice/.config/rofi 
 
+pacaur -Qqe > packages.txt
+
 git add .
 OUTPUT="$(git status)"
 echo "${OUTPUT}"

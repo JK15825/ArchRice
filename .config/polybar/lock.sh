@@ -5,7 +5,7 @@ TMPBG=/tmp/screen.png
 scrot /tmp/screen.png
 convert $TMPBG -scale 5% -scale 2000% $TMPBG
 convert $TMPBG $ICON -gravity center -composite -matte $TMPBG
-i3lock -i $TMPBG
+i3lock -i $TMPBG --indicator --radius=240 --insidecolor=00000000 --ringcolor=12211ee6 --bshlcolor=ff6961ff --keyhlcolor=6ea498ff
 rm /tmp/screen.png
 
 mpc pause 

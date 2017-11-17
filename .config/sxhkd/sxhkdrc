@@ -92,6 +92,9 @@ alt + {_,shift + }{h,j,k,l}
 alt + ctrl + {h,j,k,l}
 	bspc node -p {west,south,north,east}
 
+alt + ctrl + {1-9}
+    bspc node -o 0.{1-9}
+
 # cancel the preselection for the focused node
 alt + ctrl + space
 	bspc node -p cancel

@@ -18,7 +18,6 @@ touch Invitational.tex
 touch blog2.html
 touch random.html
 cp sapce.jpg ~/Documents/CS115/HTML/
-w
 touch spotify.sh
 touch PayrollApp.java
 close
@@ -35,7 +34,17 @@ search Doc
 search CIS
 search Proj
 open_with pdflatex
-search 
 search doc
 
 search topic
+search Proj7
+search Tri
+search 
+search tri
+touch ResearchPaperInfo.txt
+touch test.cs
+open_with vim
+search Proj8
+touch Proj8.java
+w
+help

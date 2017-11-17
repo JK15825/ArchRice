@@ -14,5 +14,5 @@ pacaur -Qqe > packages.txt
 git add .
 OUTPUT="$(git status)"
 echo "${OUTPUT}"
-git commit -m "Update $(date "%A %B %Y") "
+git commit -m "Update $(date "+%A %B %Y") "
 git push origin master

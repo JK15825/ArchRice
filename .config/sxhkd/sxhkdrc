@@ -67,6 +67,12 @@ alt + {_,shift +}x
 # alternate between the tiled and monocle layout
 alt + m
 	bspc desktop -l next
+
+#toggle gaps on or off
+
+alt + super + r 
+    bspc config window_gap {7,-1}
+
 #
 # state/flags
 #

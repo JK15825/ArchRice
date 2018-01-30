@@ -38,10 +38,12 @@ font-1 = fixed:pixelsize=22;2
 font-2 = unifont:fontformat=truetype:size=20:antialias=false;2
 font-3 = siji:pixelsize=22;2
 
+tray-postition = right
+tray-maxsize = 32
 modules-left = bspwm date windows 
 modules-center = mpd 
-modules-right = wlan volume battery powermenu
-tray-padding = 4
+modules-right = network volume battery powermenu
+;;tray-padding = 4
 bottom = true
 
 [module/windows]
@@ -98,8 +100,8 @@ label-mounted-foreground = ${colors.foreground}
 
 [module/mpd]
 type = internal/mpd
-format-online =  "%{A1:mpc prev:}<icon-prev>%{A}%{A1:mpc play:}<icon-play>%{A}%{A1:mpc pause:}<icon-pause>%{A}%{A1:mpc next:}<icon-next>%{A} <label-song><label-time>"
-label-time = (%elapsed%/%total%)
+format-online =  "<label-song>  <label-time>"
+label-time = %elapsed%/ %total%
 icon-prev = "  " 
 icon-next = "  "
 icon-play = "  "
@@ -110,14 +112,14 @@ format-online-foreground = ${colors.foreground}
 format-online-background = ${colors.background} 
 #format-online-padding = 2
 
-[module/wlan]
+[module/network]
 type = internal/network
 interface = wlan0
 interval = 2.0
 format-connected = <ramp-signal> <label-connected>
 format-connected-underline = #9f78e1
-label-connected = "%{A1:connman-gtk:} %essid%%{A}  "
-label-disconnected = "%{A1:connman-gtk:}Disconnected%{A}  "
+label-connected = "%{A1:connman-gtk &:} %essid%%{A}  "
+label-disconnected = "%{A1:connman-gtk &:}Disconnected%{A}  "
 label-connected-foreground = ${colors.foreground}
 label-disconnected-foreground = ${colors.foreground}
 format-disconnected = <label-disconnected>
@@ -213,7 +215,7 @@ battery-label = BAT:
 
 format-charging = <animation-charging> <label-charging>
 format-charging-underline = #ffb52a
-
+format-chcaring-color = 
 format-discharging = <ramp-capacity> <label-discharging>
 format-discharging-underline = ${self.format-charging-underline}
 
@@ -233,7 +235,7 @@ animation-charging-1 =
 animation-charging-2 =
 animation-charging-3 = 
 animation-charging-4 = 
-animation-charging-foreground = ${colors.foreground-alt}
+animation-charging-foreground = #7CFC00
 animation-charging-framerate = 750
 
 [module/powermenu]
@@ -244,7 +246,7 @@ label-close = "  "
 
 menu-0-0 = "  "
 menu-0-0-foreground = #fba922
-menu-0-0-exec = "~/.config/polybar/lock.sh lock"
+menu-0-0-exec = systemctl suspend
 menu-0-1 = "  "
 menu-0-1-foreground = #fba922
 menu-0-1-exec = systemctl reboot

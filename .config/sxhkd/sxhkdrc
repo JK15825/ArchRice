@@ -3,7 +3,8 @@
 #
 
 # terminal emulator
-alt+ Return
+
+alt + Return
     termite 
 
 # program launcher
@@ -18,7 +19,7 @@ ctrl + alt + shift + t
     wal -t -i "/home/jkaspar/Pictures/Wallpapers"
 
 XF86Audio{Raise,Lower}Volume
-    amixer set Master {1+,1-} unmute
+    amixer set Master {5+,5-} unmute
 
 XF86AudioMute
     amixer -D pulse set Master toggle
@@ -34,7 +35,7 @@ XF86AudioPrev
     mpc prev
 
 XF86MonBrightness{Down,Up}
-    brightnessctl s 2%{-,+}
+    brightnessctl s 10%{-,+}
 
 XF86Search
     rofi -show run
@@ -70,7 +71,7 @@ alt + m
 
 #toggle gaps on or off
 
-alt + super + r 
+alt + ctrl + r 
     bspc config window_gap {7,-1}
 
 #

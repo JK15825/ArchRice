@@ -1,20 +1,3 @@
-rifle
-ls -all
-all
-show
-vsplit
-split
-e
-touch 
-PlugInstall
-touch Source.tex
-w .vimrc
-map
-map!
-shell mv 2017-10-14-155258_3200x1800_scrot.png Pictures
-rm Throwing.java
-del Throwing.java
-touch Invitational.tex
 touch blog2.html
 touch random.html
 cp sapce.jpg ~/Documents/CS115/HTML/
@@ -28,14 +11,12 @@ search Collec
 search Colle
 search Col
 search Coll
-wq
 search src
 search Doc
 search CIS
 search Proj
 open_with pdflatex
 search doc
-
 search topic
 search Proj7
 search Tri
@@ -46,5 +27,24 @@ touch test.cs
 open_with vim
 search Proj8
 touch Proj8.java
-w
 help
+wq
+touch InputPane.java
+touch Shower.java
+w1
+w
+open_with unzip
+touch setup_environment.txt
+open_with 
+rename
+rename Season 3
+rename Season 4
+rename Season 5
+rename Season 2
+rename Season 1
+delete
+bulkrename
+
+mkdir
+mkdir Fringe
+du -sh 

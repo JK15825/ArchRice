@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cp ~/.vimrc ~/ArchRice/.vimrc
 cp ~/Pictures/background.jpg ~/ArchRice
 cp -r ~/.config/polybar ~/ArchRice/.config
 cp -r ~/.config/bspwm/bspwmrc ~/ArchRice/.config/bspwm

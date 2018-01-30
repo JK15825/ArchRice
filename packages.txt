@@ -10,7 +10,6 @@ brightnessctl
 bspwm
 bzip2
 cava
-chromium
 compton
 connman
 connman-gtk
@@ -22,6 +21,7 @@ dialog
 diffutils
 discord
 dotnet-sdk-2.0
+dunst
 e2fsprogs
 efibootmgr
 fakeroot
@@ -36,17 +36,21 @@ gawk
 gcc
 gcc-libs
 gettext
+gksu
 glibc
+gpick
 grep
 groff
 grub
 gtk2
+gtkmm
 gucharmap
 gzip
 htop
 hunspell-en
 i3lock-color
 inetutils
+intel-ucode
 iproute2
 iputils
 jdk8-openjdk
@@ -57,7 +61,9 @@ libreoffice-fresh
 libtool
 licenses
 linux
+linux-headers
 linux-lts
+linux-lts-headers
 logrotate
 lvm2
 lxappearance
@@ -74,8 +80,10 @@ mono
 mopidy
 mopidy-spotify
 mpc
+mpv
 nano
 ncmpcpp
+ncurses5-compat-libs
 neofetch
 ntfs-3g
 openssh
@@ -92,7 +100,6 @@ polybar
 procps-ng
 psmisc
 pulseaudio
-python-pywal
 ranger
 reiserfsprogs
 rofi
@@ -102,6 +109,7 @@ scrot
 sed
 shadow
 siji-git
+steam
 sudo
 sxhkd
 sysfsutils
@@ -110,7 +118,8 @@ tar
 termite
 texinfo
 thunderbird
-ttf-font-awesome
+transmission-gtk
+ttf-font-awesome-4
 ttf-ms-fonts
 udiskie
 udisks2
@@ -120,9 +129,7 @@ usbutils
 util-linux
 vi
 vim
-vim-airline
 vim-plug
-visual-studio-code
 w3m
 wgetpaste
 which

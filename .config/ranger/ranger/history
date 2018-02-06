@@ -1,4 +1,3 @@
-touch blog2.html
 touch random.html
 cp sapce.jpg ~/Documents/CS115/HTML/
 touch spotify.sh
@@ -48,3 +47,4 @@ bulkrename
 mkdir
 mkdir Fringe
 du -sh 
+touch todo.org

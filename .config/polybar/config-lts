@@ -115,7 +115,7 @@ format-online-underline =  ${colors.foreground}
 
 [module/network]
 type = internal/network
-interface = wlan0
+interface = wlp58s0
 interval = 2.0
 format-connected = <ramp-signal> <label-connected>
 format-connected-underline = #9f78e1

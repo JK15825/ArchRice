@@ -20,7 +20,6 @@ dhcpcd
 dialog
 diffutils
 discord
-dotnet-sdk-2.0
 dunst
 e2fsprogs
 efibootmgr
@@ -100,6 +99,7 @@ polybar
 procps-ng
 psmisc
 pulseaudio
+qutebrowser
 ranger
 reiserfsprogs
 rofi
@@ -115,6 +115,7 @@ sxhkd
 sysfsutils
 systemd-sysvcompat
 tar
+tdrop-git
 termite
 texinfo
 thunderbird

@@ -9,7 +9,10 @@ Plug 'yuttie/hydrangea-vim'
 "Plug 'vim-syntastic/syntastic'
 Plug 'w0rp/ale'
 " Plug 'jeetsukumaran/vim-buffergator'
-
+Plug 'jceb/vim-orgmode'
+Plug 'tpope/vim-speeddating'
+Plug 'mattn/calendar-vim'
+Plug 'vim-scripts/utl.vim'
 call plug#end()
 let g:latex_preivew#compiler = 'pdflatex'
 let g:latex_preview#rebuild_events = 'TextChanged,TextChangedI'
@@ -22,9 +25,10 @@ set number relativenumber
 set shiftwidth=4
 set tabstop=4
 set expandtab
+set cursorline 
 nnoremap <F5> :buffers<CR>:buffer<Space>
-"let g:syntastic_java_javac_classpath = "/home/jkaspar/Downloads/jogamp/jogamp-all-platforms/jar/jogl-all.jar\n/home/jkaspar/Downloads/jogamp/jogamp-all-platforms/jar/gluegen-rt.jar"
 
+"let g:syntastic_java_javac_classpath = "/home/jkaspar/Downloads/jogamp/jogamp-all-platforms/jar/jogl-all.jar\n/home/jkaspar/Downloads/jogamp/jogamp-all-platforms/jar/gluegen-rt.jar"
 "set statusline+=%#warningmsg#
 "set statusline+=%{SyntasticStatuslineFlag()}
 "set statusline+=%*
